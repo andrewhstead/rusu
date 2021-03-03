@@ -1,42 +1,55 @@
+/* Styles for the header and navigation menu. */
 header {
 	background-color: #37277d;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	color: #ffffff;
-	font: 20pt "Arial Black", sans-serif;
+	font: 20pt "Arial Black", Sans-Serif;
 	padding-bottom: 2px;
+	z-index: 1;
 }
-
 .page-title {
 	padding-left: 20px;
 }
-
 .menu-toggle {
 	float: right;
 	padding-right: 20px;
 }
-
 .menu-items {
 	display: none;
 }
-
 ul {
 	padding: 2px 0;
 	margin: 0;
 }
-
 .toggle-items li {
 	list-style-type: none;
 	font: 16pt Arial, sans-serif;
 }
-
 .toggle-items a {
 	padding-left: 20px;
 	color: #ffffff;
 	text-decoration: none;
 }
-
 .toggle-items a:hover {
 	text-decoration: underline;
+}
+
+/*Styles for the main section of the page. */
+main {
+	margin: 50px 20px 10px;
+}
+h1 {
+	font: 20pt "Arial Bold", Sans-Serif;
+}
+.card {
+	margin: 20px 0;
+}
+.card:first-of-type {
+	margin-top: 10px;
+}
+.card:hover {
+	background-color: #f9f9f9;
+	box-shadow: 0 0 5px 5px #cccccc;
 }
