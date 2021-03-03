@@ -44,6 +44,9 @@ h1 {
 	font: 20pt "Arial Bold", Sans-Serif;
 	margin: 0 0 0 10px;
 }
+.card-subtitle {
+	margin-bottom: 10px;
+}
 .flex-container {
 	display: flex;
 	flex-flow: wrap;
@@ -54,8 +57,21 @@ h1 {
 	margin: 10px;
 	align-self: stretch;
 	max-width: 600px;
+	border-radius: 10px;
 }
 .card:hover {
 	background-color: #f9f9f9;
 	box-shadow: 0 0 5px 5px #cccccc;
+}
+.card-image-top {
+	border-radius: 10px 10px 0 0;
+}
+
+/* Styles for the footer. */
+footer {
+	background-color: #37277d;
+	width: 100%;
+	color: #ffffff;
+	font: 9pt "Arial Black", Sans-Serif;
+	padding: 5px 0 5px 20px;
 }
