@@ -1,0 +1,42 @@
+header {
+	background-color: #37277d;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #ffffff;
+	font: 20pt "Arial Black", sans-serif;
+	padding-bottom: 2px;
+}
+
+.page-title {
+	padding-left: 20px;
+}
+
+.menu-toggle {
+	float: right;
+	padding-right: 20px;
+}
+
+.menu-items {
+	display: none;
+}
+
+ul {
+	padding: 2px 0;
+	margin: 0;
+}
+
+.toggle-items li {
+	list-style-type: none;
+	font: 16pt Arial, sans-serif;
+}
+
+.toggle-items a {
+	padding-left: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.toggle-items a:hover {
+	text-decoration: underline;
+}
