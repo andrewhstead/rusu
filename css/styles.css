@@ -38,16 +38,22 @@ ul {
 
 /*Styles for the main section of the page. */
 main {
-	margin: 50px 20px 10px;
+	margin: 50px 10px 10px;
 }
 h1 {
 	font: 20pt "Arial Bold", Sans-Serif;
+	margin: 0 0 0 10px;
+}
+.flex-container {
+	display: flex;
+	flex-flow: wrap;
+	align-items: start;
 }
 .card {
-	margin: 20px 0;
-}
-.card:first-of-type {
-	margin-top: 10px;
+	flex: 300px 1;
+	margin: 10px;
+	align-self: stretch;
+	max-width: 600px;
 }
 .card:hover {
 	background-color: #f9f9f9;
