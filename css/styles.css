@@ -5,12 +5,12 @@ header {
 	top: 0;
 	width: 100%;
 	color: #ffffff;
-	font: 20pt "Arial Black", Sans-Serif;
 	padding-bottom: 2px;
 	z-index: 1;
 }
 .page-title {
 	padding-left: 20px;
+	font: 2em "Arial Black", Sans-Serif;
 }
 .page-sub-title {
 	display: none;
@@ -18,12 +18,13 @@ header {
 .menu-toggle {
 	float: right;
 	padding-right: 20px;
+	font: 2em "Arial Black", Sans-Serif;
 }
 .menu-items {
 	display: none;
 }
 ul {
-	padding: 2px 0;
+	padding: 2px 0 10px 20px;
 	margin: 0;
 }
 .toggle-items li {
@@ -31,9 +32,9 @@ ul {
 	font: 16pt Arial, sans-serif;
 }
 .toggle-items a {
-	padding-left: 20px;
 	color: #ffffff;
 	text-decoration: none;
+	padding: 5px 10px;
 }
 .toggle-items a:hover {
 	text-decoration: underline;
@@ -93,12 +94,22 @@ footer {
 		display: inline;
 	}
 	main {
-		margin-top: 100px;
+		margin-top: 125px;
+	}
+	.page-title {
+		font: 3em "Arial Black", Sans-Serif;
 	}
 	.page-sub-title {
 		display: inline;
-		font: 15pt Arial, Sans-Serif;
-		max-width: 200px;
+		font: 1.25em Arial, Sans-Serif;
+		padding-left: 10px;
+	}
+	.toggle-items a:hover {
+		text-decoration: none;
+		background-color: #eeeeee;
+		color: #333333;
+		border-radius: 10px;
+		box-shadow: 0 0 3px 3px #eeeeee;
 	}
 	
 }
