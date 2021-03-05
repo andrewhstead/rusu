@@ -24,17 +24,18 @@ header {
 	display: none;
 }
 ul {
-	padding: 2px 0 10px 20px;
+	padding: 2px 0 0 20px;
 	margin: 0;
 }
 .toggle-items li {
 	list-style-type: none;
 	font: 16pt Arial, sans-serif;
+	border-top: 1px solid #6a5aaf;
+	padding: 2px 0;
 }
 .toggle-items a {
 	color: #ffffff;
 	text-decoration: none;
-	padding: 5px 10px;
 }
 .toggle-items a:hover {
 	text-decoration: underline;
@@ -83,8 +84,8 @@ footer {
 	padding: 5px 0 5px 20px;
 }
 
-/* Responsive styles for screens above a break-point of 660 pixels. */
-@media screen and (min-width: 660px) {
+/* Responsive styles for screens above a break-point of 600 pixels. */
+@media screen and (min-width: 600px) {
 
 	/* Styles for the page header and navigation menu. */
 	.menu-toggle {
@@ -107,12 +108,18 @@ footer {
 		font: 1.25em Arial, Sans-Serif;
 		padding-left: 10px;
 	}
+	.toggle-items li {
+		border: 0;
+		padding: 5px 0;
+	}
+	.toggle-items a {
+		padding: 5px 10px;
+	}
 	.toggle-items a:hover {
 		text-decoration: none;
-		background-color: #eeeeee;
+		background-color: #fbb900;
 		color: #333333;
-		border-radius: 10px;
-		box-shadow: 0 0 3px 3px #eeeeee;
+		padding: 5px 10px;
 	}
 	
 }
