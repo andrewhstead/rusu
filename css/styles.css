@@ -76,7 +76,7 @@ footer {
 	background-color: #37277d;
 	width: 100%;
 	color: #ffffff;
-	font: 9pt "Arial Black", Sans-Serif;
+	font: 1em "Arial Black", Sans-Serif;
 	padding: 5px 0 5px 20px;
 }
 
@@ -91,7 +91,7 @@ footer {
 		display: block;
 	}
 	.menu-items li {
-		display: inline;
+		display: inline-block;
 	}
 	main {
 		margin-top: 125px;
