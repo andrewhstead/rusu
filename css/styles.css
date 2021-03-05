@@ -42,7 +42,7 @@ ul {
 
 /*Styles for the main section of the page. */
 main {
-	margin: 60px 10px 10px;
+	margin: 60px 15px 10px;
 }
 h1 {
 	font: 20pt "Arial Bold", Sans-Serif;
@@ -55,6 +55,9 @@ h1 {
 	display: flex;
 	flex-flow: wrap;
 	align-items: start;
+	justify-content: space-around;
+	max-width: 1225px;
+	margin: auto;
 }
 .card {
 	flex: 300px 1;
