@@ -106,7 +106,24 @@ footer {
 	width: 100%;
 	color: #ffffff;
 	font: 1em "Arial Black", Sans-Serif;
-	padding: 5px 0 5px 20px;
+	padding: 5px 0 5px;
+}
+.social-media {
+	display: flex;
+	padding: 10px 0 20px;
+}
+.social-icon {
+	flex: 1;
+	text-align: center;
+}
+.social {
+	height: 50px;
+	background-color: #ffffff;
+	padding: 5px;
+	border-radius: 10px;
+}
+.copyright {
+	padding-left: 20px;
 }
 
 /* Responsive styles for screens above a break-point of 0 pixels. */
