@@ -11,6 +11,15 @@
 
 	<!-- Custom CSS Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
+    
+	<!-- Images for page heading preloaded to optimise fader effect. -->
+    <link rel="preload" href="img/slider/1.jpg" as="image">
+    <link rel="preload" href="img/slider/2.jpg" as="image">
+    <link rel="preload" href="img/slider/3.jpg" as="image">
+    <link rel="preload" href="img/slider/4.jpg" as="image">
+    <link rel="preload" href="img/slider/5.jpg" as="image">
+    <link rel="preload" href="img/slider/6.jpg" as="image">
+    <link rel="preload" href="img/slider/7.jpg" as="image">
     <title>Events | RUSU</title>
   </head>
 
@@ -48,10 +57,19 @@
 		
 	</header>
 	
+	<!-- JavaScript image switcher for page heading. -->
+	<div id="fader">
+		<img class="fader-image hidden-content fade-in" src="img/slider/1.jpg" alt="Upcoming Events" />
+		<img class="fader-image hidden-content fade-in" src="img/slider/2.jpg" alt="Upcoming Events" />
+		<img class="fader-image hidden-content fade-in" src="img/slider/3.jpg" alt="Upcoming Events" />
+		<img class="fader-image hidden-content fade-in" src="img/slider/4.jpg" alt="Upcoming Events" />
+		<img class="fader-image hidden-content fade-in" src="img/slider/5.jpg" alt="Upcoming Events" />
+		<img class="fader-image hidden-content fade-in" src="img/slider/6.jpg" alt="Upcoming Events" />
+		<img class="fader-image hidden-content fade-in" src="img/slider/7.jpg" alt="Upcoming Events" />
+	</div>
+	
 	<!-- The main content of the page. -->
 	<main>
-		
-		<h1>UPCOMING EVENTS</h1>
 		
 		<!-- Container to use flexbox for responsive design. -->
 		<div class="flex-container">

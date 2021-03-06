@@ -1,7 +1,8 @@
 /* Styles for the header and navigation menu. */
 header {
 	background-color: #37277d;
-	position: fixed;
+	position: sticky;
+	position: -webkit-sticky;
 	top: 0;
 	width: 100%;
 	color: #ffffff;
@@ -41,13 +42,37 @@ ul {
 	text-decoration: underline;
 }
 
+
+/* Styles for displaying image fader for the page heading. */
+.fader-image {
+	width: 100%;
+	opacity: 0.7;
+	max-height: 400px;
+	object-fit: cover;
+	object-position: center;
+}
+.fade-in {
+	animation-name: fade-transition;
+	animation-duration: 2s;
+}
+@keyframes fade-transition {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 0.7;
+	}
+}
+.hidden-content {
+	display: none;
+}
+.block-content {
+	display: block;
+}
+
 /*Styles for the main section of the page. */
 main {
-	margin: 60px 15px 10px;
-}
-h1 {
-	font: 20pt "Arial Bold", Sans-Serif;
-	margin: 10px;
+	margin: 15px;
 }
 .card-subtitle {
 	margin-bottom: 10px;
@@ -84,7 +109,7 @@ footer {
 	padding: 5px 0 5px 20px;
 }
 
-/* Responsive styles for screens above a break-point of 600 pixels. */
+/* Responsive styles for screens above a break-point of 0 pixels. */
 @media screen and (min-width: 600px) {
 
 	/* Styles for the page header and navigation menu. */
@@ -98,7 +123,7 @@ footer {
 		display: inline-block;
 	}
 	main {
-		margin-top: 125px;
+		margin-top: 25px;
 	}
 	.page-title {
 		font: 3em "Arial Black", Sans-Serif;
