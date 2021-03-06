@@ -16,11 +16,11 @@ The heading images grow as the screen size gets wider, but are restricted to a m
 
 ## Accessibility
 
-Background and font colours are seleted to ensure significant contrast to aid visually impaired users. All images have ALT attributes set for screen readers, while links on the page can all be navigated using the keyboard's TAB key.
+Background and font colours are seleted to ensure significant contrast to aid visually impaired users. Font sizes are relative to aid resizing the page by users as required. All images have ALT attributes set for screen readers, while links on the page can all be navigated using the keyboard's TAB key.
 
 ## Languages
 
-The page is written in HTML with links to Bootstrap CSS and also a custom stylesheet. A custom JavaScript file is also included which allows access to the function which toggles the menu on and off in the mobile view.
+The page is written in HTML with links to Bootstrap CSS and also a custom stylesheet. A custom JavaScript file is also included which allows access to the function which toggles the menu on and off in the mobile view, as well as the code which runs the image fader effect on the page heading.
 
 ## Browser Compatibility
 

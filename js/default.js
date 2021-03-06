@@ -1,8 +1,10 @@
 /* Code for menu toggle function used in mobile view.*/
 function menuToggle(section) {
 	
+	/* Select all elements with the class of 'toggle-items'.*/
 	var menu = document.getElementsByClassName("toggle-items");
-
+	
+	/* Toggle on and off the class of 'menu-items', which hides these elements by default.*/
 	for (var i = 0; i < menu.length; i++) {
 		menu[i].classList.toggle("menu-items");
 	}
